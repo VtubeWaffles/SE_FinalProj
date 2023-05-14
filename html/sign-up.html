@@ -95,7 +95,7 @@ button:hover {
   <a href="html/packages.html">Packages</a>
   <a href="html/order-now.html">Order Now</a>
   <div class="dropdown">
-    <button class="dropbtn"> <img src="html/menu-icon.png" width = "32" height = "32">
+    <button class="dropbtn"> <img src="menu-icon.png" width = "32" height = "32">
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -139,8 +139,9 @@ button:hover {
 	<br>
     <label for="psw-repeat"><b>Repeat Password</b></label> <br>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-	
-	<button type="button" class="cancelbtn">Cancel</button>
+	<form action="homepage.html">
+		<button type="button" class="cancelbtn" onclick="history.back()">Cancel</button>
+	</form>
      <button type="submit" class="signupbtn">Sign Up</button>
 	 
   </div>
