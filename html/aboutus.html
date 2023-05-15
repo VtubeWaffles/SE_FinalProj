@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="Style4AboutUs.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="../homepage.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="packages.html">Packages</a>
+	    <a href="featured_photos.html">Featured Photos</a>
+        <a href="order-now.html">Order Now</a>
+        <div class="dropdown">
+          <button class="dropbtn"> <img src="menu-icon.png" width = "32" height = "32">
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">My Orders</a>
+            <a href="#">Contact Us</a>
+            <button class="open-button" onclick="openForm()">Login</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="form-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+              <h1>Login</h1>
+              
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+      
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+      
+              <button type="submit" class="btn">Login</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              <a href="sign-up.html">New here?</a>
+        </form>
+          </div> 
+
+	<header>
+		<h1>About Us</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>De Kuwadro Visuals</h2>
+			<p>De Kuwadro Visuals is a media brand that offers photograpy and videography services to clients. It is a start-up business owned by Carl Matulina, a third year BSIT student of WVSU-CICT and was established last November 23, 2022.
+            </p>
+            <p>The small business aims to provide a service for people to treasure every moment through photo and video documentation. The owner covers various types of events including but not necessarily limited to special moments such as weddings, debuts, birthdays, pageants, baptisms, and corporal events.   
+            </p>
+		</section>
+
+		<section>
+			<h2>Our Team</h2>
+			<ul>
+				<li>
+					<img src="TeamPics/Wil.jpg" alt="Team Member 1">
+					<h3>Wil Erwin Quitayen</h3>
+				</li>
+				<li>
+					<img src="TeamPics/Ed.jpg" alt="Team Member 2">
+					<h3>Ed Martin Pasaporte</h3>
+				</li>
+				<li>
+					<img src="TeamPics/Carl.jpg" alt="Team Member 3">
+					<h3>Carl Matulina</h3>
+				</li>
+                <li>
+					<img src="TeamPics/Airah.jpg" alt="Team Member 3">
+					<h3>Airah Mae Cabangal</h3>
+				</li>
+                <li>
+					<img src="TeamPics/logo.png" alt="Team Member 3">
+					<h3>  </h3>
+				</li>
+                <li>
+					<img src="TeamPics/Mel.jpg" alt="Team Member 3">
+					<h3>Mel Francis Florino</h3>
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 De Kuwadro Visuals. All rights reserved.</p>
+	</footer>
+</body>
+</html>
