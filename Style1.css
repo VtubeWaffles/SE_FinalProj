@@ -5,6 +5,35 @@
   font-family: Arial;
 }
 
+.Calendar {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin-left: 50px;
+}
+
+.contact {
+	background-color: white;
+	width: 600px;
+	height: 600px;
+	position: relative;
+}
+.contact img {
+	width: 64px;
+	height: 64px;
+	position: relative;
+	left: 250px;
+	
+}
+
+.contact p {
+	font-size: 24px;
+	color: black;
+	font-family: helvetica;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
 /* Links inside the navbar */
 .navbar a {
   float: left;
@@ -203,9 +232,3 @@ body {
   opacity: 1;
 } 
 
-.PackageBox {
-	width: 100px;
-	height: 100px;
-	background-color: white;
-	
-}
