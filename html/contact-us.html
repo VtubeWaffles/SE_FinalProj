@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<head>
+<link rel="stylesheet" href = "../Style1.css">
+</head>
+
+<div class="navbar">
+  <a href="../homepage.html">Home</a>
+  <a href="about-us.html">About Us</a>
+  <a href="packages.html">Packages</a>
+  <a href="order-now.html">Order Now</a>
+  <div class="dropdown">
+    <button class="dropbtn"> <img src="menu-icon.png" width = "32" height = "32">
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="my-orders.html">My Orders</a>
+      <a href="contact-us.html">Contact Us</a>
+	  <button class="open-button" onclick="openForm()">Open Form</button>
+    </div>
+  </div>
+</div>
+
+<div class="form-popup" id="myForm">
+		<form action="/action_page.php" class="form-container">
+		<h1>Login</h1>
+		
+		<label for="email"><b>Email</b></label>
+		<input type="text" placeholder="Enter Email" name="email" required>
+
+		<label for="psw"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="psw" required>
+
+		<button type="submit" class="btn">Login</button>
+		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+		<a href="sign-up.html">New here?</a>
+  </form>
+	</div> 
+
+<div class="contact" id = "contact1">
+<img src = "Placeholder-Clipart-Icon.png">
+<p> TestEmailAddress123@Kuwadro.com </p>
+
+<img src = "Placeholder-Clipart-Icon.png">
+<p> DeKuwadroVisuals </p>
+
+<img src = "Placeholder-Clipart-Icon.png">
+<p> 0949-999-9999 </p>
+
+</div>
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+} 
+</script>
+
+</body>
+</html>	
