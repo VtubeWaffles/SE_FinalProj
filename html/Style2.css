@@ -36,7 +36,7 @@ h1 {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 50px;
+  top: 30px;
   right: 0;
   z-index: 1;
   background-color: #1d1d1d;
