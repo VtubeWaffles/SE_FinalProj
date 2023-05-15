@@ -17,6 +17,9 @@
 	width: 600px;
 	height: 600px;
 	position: relative;
+	opacity: 0.5;
+	top: 50px;
+	margin: auto;
 }
 .contact img {
 	width: 64px;
@@ -25,7 +28,10 @@
 	left: 250px;
 	
 }
-
+.logo img {
+	width:300px;
+	height:300px;
+}
 .contact p {
 	font-size: 24px;
 	color: black;
