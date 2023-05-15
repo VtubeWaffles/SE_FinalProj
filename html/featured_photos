@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<title>Featured Photos</title>
+	<link rel="stylesheet" type="text/css" href="Style3Featured.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="../homepage.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="packages.html">Packages</a>
+        <a href="order-now.html">Order Now</a>
+        <div class="dropdown">
+          <button class="dropbtn"> <img src="menu-icon.png" width = "32" height = "32">
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">My Orders</a>
+            <a href="#">Contact Us</a>
+            <button class="open-button" onclick="openForm()">Open Form</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="form-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+              <h1>Login</h1>
+              
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+      
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+      
+              <button type="submit" class="btn">Login</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              <a href="sign-up.html">New here?</a>
+        </form>
+          </div> 
+	<h1>Featured Photos</h1>
+	
+	<div class="gallery">
+		<img src="featuredphotos/1.jpg" alt="Image 1">
+		<img src="featuredphotos/2.jpg" alt="Image 2">
+		<img src="featuredphotos/3.jpg" alt="Image 3">
+		<img src="featuredphotos/4.jpg" alt="Image 4">
+		<img src="featuredphotos/5.jpg" alt="Image 5">
+		<img src="featuredphotos/6.jpg" alt="Image 6">
+		<img src="featuredphotos/7.jpg" alt="Image 7">
+		<img src="featuredphotos/8.jpg" alt="Image 8">
+		<img src="featuredphotos/9.jpg" alt="Image 9">
+	</div>
+</body>
+</html>
