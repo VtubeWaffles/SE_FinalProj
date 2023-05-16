@@ -39,7 +39,6 @@ div.Text h1 {
 
 
 
-
 /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -243,27 +242,159 @@ body {
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 } 
+/* packages */
+/* <div class="PackageBox1" id = "PackageBox1Upper">
+<button class="open-button" onclick="openForm()">
+<img src = "featuredphotos/1.jpg" alt="package1btn" border="0"/> 
+</button>
+<p> test </p>
 
-.PackageBox1 {
+</div>
+ */
+
+/* Popup Packages */
+.package1form {
+	display: none;
 	position: absolute;
-	width: 250px;
-	height: 300px;
+	margin: auto;
+	width: 600px;
+	height: 600px;
+	background-color: white;
+	z-index: 5;
+	bottom: 25%;
+	left: 25%;
+}
+
+.package1form .Info {
+	color: black;
+	font-family: Helvetica;
+	margin: 15px;
+	padding: 5px;
+	
+}
+
+.package1form .Info h1 {
+	text-align: center;
+	
+	
+}
+
+.package1form .btn {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top:10px;
+  opacity: 0.8;
+}
+
+/* end of open form 1 */
+
+/* Popup Packages */
+.package2form {
+	display: none;
+	position: absolute;
+	margin: auto;
+	width: 600px;
+	height: 600px;
+	background-color: white;
+	z-index: 5;
+	bottom: 25%;
+	left: 25%;
+}
+
+.package2form .Info {
+	color: black;
+	font-family: Helvetica;
+	margin: 15px;
+	padding: 5px;
+	
+}
+
+.package2form .Info h1 {
+	text-align: center;
+	
+	
+}
+
+.package2form .btn {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top:10px;
+  opacity: 0.8;
+}
+
+/* end of open form 2 */
+
+/* Popup Packages */
+.package3form {
+	display: none;
+	position: absolute;
+	margin: auto;
+	width: 600px;
+	height: 600px;
+	background-color: white;
+	z-index: 5;
+	bottom: 25%;
+	left: 25%;
+}
+
+.package3form .Info {
+	color: black;
+	font-family: Helvetica;
+	margin: 15px;
+	padding: 5px;
+	
+}
+
+.package3form .Info h1 {
+	text-align: center;
+	
+	
+}
+
+.package3form .btn {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top:10px;
+  opacity: 0.8;
+}
+
+/* end of open form 3 */
+
+
+/* packages thingy */
+.PackageBox1 img{
+	position: absolute;
+	width: 400px;
+	height: 266px;
 	background-color: white;
 	left: 600px;
-	top: 250px;
+	top: 100px;
 	margin: 20px;
-	opacity: 0.5;
 	border: 1px;
 	border-radius: 15px;
 	z-index: 0;
 }
 
+
+
 .PackageBoxBottom1 {
 	position: absolute;
-	width: 250px;
+	width: 400px;
 	height: 100px;
 	left: 600px;
-	top: 450px;
+	top: 325px;
 	margin: 20px;
 	background-color: white;
 	border: 1px;
@@ -279,15 +410,16 @@ body {
 	font-family: helvetica;	 
 }
 
-.PackageBox2 {
+
+.PackageBox2 img {
 	position: absolute;
-	width: 250px;
-	height: 300px;
+	width: 400px;
+	height: 266px;
 	background-color: white;
-	left: 875px;
-	top: 250px;
+	left: 1050px;
+	top: 100px;
 	margin: 20px;
-	opacity: 0.5;
+
 	border: 1px;
 	border-radius: 15px;
 	z-index: 0;
@@ -295,16 +427,16 @@ body {
 
 .PackageBoxBottom2 {
 	position: absolute;
-	width: 250px;
+	width: 400px;
 	height: 100px;
-	left: 875px;
-	top: 450px;
+	left: 1050px;
+	top: 325px;
 	margin: 20px;
 	background-color: white;
 	border: 1px;
 	border-radius: 15px;
 	z-index: 1;
-	opacity: 1;
+
 }
 
 .PackageBoxBottom2 h1 {
@@ -314,15 +446,15 @@ body {
 	font-family: helvetica;	 
 }
 
-.PackageBox3 {
+.PackageBox3 img {
 	position: absolute;
-	width: 250px;
-	height: 300px;
+	width: 400px;
+	height: 266px;
 	background-color: white;
-	left: 1150px;
-	top: 250px;
+	left: 825px;
+	top: 475px;
 	margin: 20px;
-	opacity: 0.5;
+
 	border: 1px;
 	border-radius: 15px;
 	z-index: 0;
@@ -330,16 +462,16 @@ body {
 
 .PackageBoxBottom3 {
 	position: absolute;
-	width: 250px;
+	width: 400px;
 	height: 100px;
-	left: 1150px;
-	top: 450px;
+	left: 825px;
+	top: 700px;
 	margin: 20px;
 	background-color: white;
 	border: 1px;
 	border-radius: 15px;
 	z-index: 1;
-	opacity: 1;
+
 }
 
 .PackageBoxBottom3 h1 {

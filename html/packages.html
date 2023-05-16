@@ -20,7 +20,7 @@ body { background-image: url("packagesbg1.jpg")}
     </button>
     <div class="dropdown-content">
       <a href="#">My Orders</a>
-      <a href="#">Contact Us</a>
+      <a href="contact-us.html">Contact Us</a>
 	  <button class="open-button" onclick="openForm()">Login</button>
     </div>
   </div>
@@ -55,36 +55,91 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 
 <div class="PackageBox1" id = "PackageBox1Upper">
-<p> test </p>
-
+<button class="open-button" onclick="openPackage1()">
+<img src = "featuredphotos/3.jpg" alt="package1btn"/> 
+</button>
 </div>
+
+<div class="package1form" id="package1">
+	<div class = "Info" id = "inform"> 
+		<h1> Wedding Package 01 </h1>
+		<hr>
+		<p> Prenup Photoshoot </p>
+		<p> Prenup Video </p>
+		<p> Php 11,999</p>
+		
+		<p>Freebies </p>
+		<p>	- USB Flashdrive</p>
+		<p>	- Photo Album (100 Photos)</p>		
+		<p>	- Access to Google Drive  </p> 
+	</div>
+		
+		<button type="button" class="btn" onclick="closePackage1()">Close</button>
+	</div> 
 
 <div class="PackageBoxBottom1" id = "PackageBoxBottom1">
 <h1> Wedding </h1>
 </div>
 
 <div class="PackageBox2" id = "PackageBox2Upper">
-<p> test </p>
-
+<button class="open-button" onclick="openPackage2()">
+<img src = "featuredphotos/2.jpg" alt="package1btn"/> 
+</button>
 </div>
 
+<div class="package2form" id="package2">
+	<div class = "Info" id = "inform"> 
+		<h1> Birthday/Debut Package 01 </h1>
+		<hr>
+		<p> Pre-birthday Photoshoot </p>
+		<p> Pre-birthday Video </p>
+		<p> Php 11,999</p>
+		
+		<p>Freebies </p>
+		<p>	- USB Flashdrive</p>
+		<p>	- Photo Album (100 Photos)</p>		
+		<p>	- Access to Google Drive  </p> 
+	</div>
+		
+		<button type="button" class="btn" onclick="closePackage2()">Close</button>
+	</div> 
+
+
 <div class="PackageBoxBottom2" id = "PackageBoxBottom2">
-<h1> Debut </h1>
+<h1> Birthday/Debut </h1>
 </div>
 
 <div class="PackageBox3" id = "PackageBox3Upper">
-<p> test </p>
-
+<button class="open-button" onclick="openPackage3()">
+<img src = "featuredphotos/8.jpg" alt="package1btn"/> 
+</button>
 </div>
+
+<div class="package3form" id="package3">
+	<div class = "Info" id = "inform"> 
+		<h1> Funshoot/Photoshoot Package 01 </h1>
+		<hr>
+		<p> Photoshoot </p>
+		<p> Php 11,999</p>
+		
+		<p>Freebies </p>
+		<p>	- USB Flashdrive</p>
+		<p>	- Photo Album (100 Photos)</p>		
+		<p>	- Access to Google Drive  </p> 
+	</div>
+		
+		<button type="button" class="btn" onclick="closePackage3()">Close</button>
+	</div> 
+
 
 <div class="PackageBoxBottom3" id = "PackageBoxBottom3">
-<h1> Corporal </h1>
+<h1> Photoshoot </h1>
 </div>
 
 
 
 
-
+ 
 <script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
@@ -93,6 +148,32 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 } 
+
+function openPackage1() {
+  document.getElementById("package1").style.display = "block";
+}
+
+function closePackage1() {
+  document.getElementById("package1").style.display = "none";
+}
+
+function openPackage2() {
+  document.getElementById("package2").style.display = "block";
+}
+
+function closePackage2() {
+  document.getElementById("package2").style.display = "none";
+}
+
+function openPackage3() {
+  document.getElementById("package3").style.display = "block";
+}
+
+function closePackage3() {
+  document.getElementById("package3").style.display = "none";
+}
+
+
 </script>
 
 </body>
