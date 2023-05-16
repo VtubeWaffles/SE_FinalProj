@@ -6,10 +6,13 @@
 }
 
 .Calendar {
+	position: absolute;
+	right: 50px;
+	top: 75px;
 	width: 500px;
 	height: 500px;
-	position: relative;
-	margin-left: 50px;
+	float: right;
+	
 }
 
 .contact {
@@ -29,8 +32,8 @@
 	
 }
 .logo img {
-	width:300px;
-	height:300px;
+	width:500px;
+	height:500px;
 }
 .contact p {
 	font-size: 24px;
