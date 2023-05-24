@@ -7,22 +7,39 @@
 
 <div class="navbar">
   <a href="homepage.html">Home</a>
-  <a href="html/about-us.html">About Us</a>
-  <a href="html/about-us.html">Packages</a>
+  <a href="about-us.html">About Us</a>
+  <a href="packages.html">Packages</a>
+  <a href="featured_photos.html">Featured Photos</a>
   <a href="form.php">Order Now</a>
   <a href="admin-homepage.html">ADMIN HOMEPAGE</a>
   <a href="admin-panel.html">ADMIN PANEL</a>
   <div class="dropdown">
-    <button class="dropbtn"> <img src="html/menu-icon.png" width = "32" height = "32">
+    <button class="dropbtn"> <img src="menu-icon.png" width = "32" height = "32">
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Login</a>
-      <a href="#">My Orders</a>
-      <a href="#">Contact Us</a>
+      <a href="contact-us.html">Contact Us</a>
+      <a href="login1.html">Log In</a>
     </div>
   </div>
 </div>
+
+  
+  <div class="form-popup" id="myForm">
+		<form action="action_page.php" class="form-container">
+		<h1>Login</h1>
+		<label for="email"><b>Email</b></label>
+		<input type="text" placeholder="Enter Email" name="email" required>
+
+		<label for="psw"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="psw" required>
+
+		<button type="submit" class="btn">Login</button>
+		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+		<a href="html/sign-up.html">New here?</a>
+  </form>
+	</div> 
+
 
 <div class ="popup" id="popup-1">
 	<div class ="content">
@@ -32,14 +49,8 @@
 	</div>
 </div>
 
-<div class="logo" id="logo">
-  <img src="DeKuwadroLogo.png"> </img>
-  </div>
 
 <div class = "Calendar">
-
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FManila&title=SOFTWARE%20ENGINEERING%20PROJECT%20THINGY&src=ZWRtYXJ0aW4ucGFzYXBvcnRlQHd2c3UuZWR1LnBo&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y18zNThkZGI0NTZlMDc4MDY4NzRmZGI2ZDA4Nzg5OTZjZmRjMGFiYWFlNTIyOGQ4NDRhOGEzZDNlZmJhMjMzNGQxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=d3ZzdS5lZHUucGhfY2xhc3Nyb29tMDk4N2Q3M2ZAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=d3ZzdS5lZHUucGhfY2xhc3Nyb29tNGE5OTQ4ZWJAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=d3ZzdS5lZHUucGhfY2xhc3Nyb29tNjQzNmU5NzVAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=d3ZzdS5lZHUucGhfY2xhc3Nyb29tZmM5YzhlOWZAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Y19jbGFzc3Jvb204NGQyZTAxMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20yNjFlYTUzZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb205ZTU4Y2MwNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20zNmMwNjFkMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21iYThiZTgwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20wZjk1MmQ1Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21lZTdjMDRmYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21lZGQ1YWVjN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20wMzcxNjM0OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21kZTRlNjIzMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21lYjM0YTY2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20yYzZiMWFmOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20wNDAzNjZmZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20xNDc0OWE4ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21hOGY2Y2M4NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb200MDEyZDQ2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb200ZjQyZDg4MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21hNzQ0YzY2YUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21mMWI5ZjQyZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4ucGhpbGlwcGluZXMjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%2333B679&color=%23B39DDB&color=%230047a8&color=%23202124&color=%23007b83&color=%230047a8&color=%23202124&color=%23007b83&color=%23c26401&color=%23202124&color=%23202124&color=%23c26401&color=%23137333&color=%230047a8&color=%230047a8&color=%230047a8&color=%23202124&color=%230047a8&color=%230047a8&color=%230047a8&color=%230047a8&color=%23007b83&color=%23202124&color=%230047a8&color=%230047a8&color=%230B8043" 
-style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 </div>
 
